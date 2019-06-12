@@ -52,10 +52,6 @@ export const query = graphql`
         template
       }
       fields {
-        nextTitle
-        nextSlug
-        prevTitle
-        prevSlug
         slug
         date
       }
