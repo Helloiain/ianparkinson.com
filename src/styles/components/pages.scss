@@ -1,0 +1,58 @@
+#main-content {
+  margin-top: 100px;
+}
+
+// Main Page
+.hero {
+  max-width: 500px;
+
+  a {
+    margin-right: 5px;
+  }
+}
+
+.I {
+  font-size: 3rem;
+
+  @include sm {
+    font-size: 2rem;
+  }
+}
+
+// Blog Page
+.blog-container {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .post-list {
+    margin-left: 15px;
+  }
+
+  .date {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+}
+
+.title-sub {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+// Blog Template
+
+// Me Page
+.me-container {
+  p {
+    clear: both;
+  }
+
+  .bio-image {
+    float: left;
+    border-radius: 50%;
+    max-width: 56px;
+    margin: 0 5px 0 0;
+  }
+}

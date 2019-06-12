@@ -1,0 +1,22 @@
+/* Mixins
+  =============== */
+
+// Media query for mobile first layout
+@mixin sm {
+  @media only screen and(max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+// Break on desktop
+@mixin lg {
+  @media (max-width: #{$desktop}) {
+    @content;
+  }
+}
