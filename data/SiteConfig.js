@@ -23,11 +23,11 @@ const config = {
       '',
     menuLinks: [
       {
-        name: 'blog',
+        name: 'Blog',
         link: '/blog/',
       },
       {
-        name: 'me',
+        name: 'Me',
         link: '/me/',
       },
     ],

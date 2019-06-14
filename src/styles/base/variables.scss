@@ -1,11 +1,16 @@
 @font-face {
-  font-family: open-sans;
-  src: url(../fonts/opensans-regular-webfont.woff);
+  font-family: montserrat;
+  src: url(../fonts/montserrat-regular-webfont.woff);
 }
 
 @font-face {
-  font-family: montserrat;
-  src: url(../fonts/montserrat-regular-webfont.woff);
+  font-family: abhayalibre;
+  src: url(../fonts/abhayalibre-regular-webfont.woff);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(../fonts/lato-light-webfont.woff);
 }
 
 /* Variables
@@ -26,7 +31,7 @@ $mobile: $x-small;
 $tablet: $small;
 $desktop: $medium;
 
-$width: 1100px;
+$width: 900px;
 
 /* Colors */
 
@@ -46,18 +51,18 @@ $bq-border: 16px solid #f0f0f0;
 
 // Body font
 $font-size: 1rem;
-$body-font-size: 1.1rem;
+$body-font-size: 1.2rem;
 $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
-$font-color: rgba(0, 0, 0, 0.6);
-$font-family: -apple-system, open-sans, Arial, sans-serif;
+$font-color: rgba(0, 0, 0, 1);
+$font-family: -apple-system, abhayalibre, Arial, sans-serif;
 $line-height: 1.6;
 
 // Headings
 $heading-font-color: #404040;
 $heading-font-weight: 600;
-$heading-font-family: -apple-system, montserrat, Arial, sans-serif;
+$heading-font-family: -apple-system, lato, Arial, sans-serif;
 $heading-line-height: 1.2;
 
 // Mobile heading font size

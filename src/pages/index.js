@@ -18,15 +18,13 @@ export default class Index extends Component {
         <SEO />
         <div className="container">
           <div className="hero">
-            <h3>
+            <h2>
               Hello, i'm <br />
               <span className="I">Ian</span>
-            </h3>
+            </h2>
             <p className="text">
-              Welcome to this tiny space i've made here for myself and my ideas.
-              I am an aspiring full-stack software developer, artist, and maybe
-              one day an austronaut with a penchant for curiosity and creative
-              problem solving.
+              Welcome to this tiny space i've made for myself and my ideas.
+              This is my first and only website, and although it has a ways to go, I hope you enjoy.
             </p>
             <a
               href="https://twitter.com/IanPark31931597" 

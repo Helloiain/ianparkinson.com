@@ -4,7 +4,7 @@
 
 // Main Page
 .hero {
-  max-width: 500px;
+  max-width: 400px;
 
   a {
     margin-right: 5px;
@@ -13,6 +13,7 @@
 
 .I {
   font-size: 3rem;
+  font-family: -apple-system, montserrat, Arial, sans-serif;
 
   @include sm {
     font-size: 2rem;
@@ -24,10 +25,6 @@
   a {
     color: inherit;
     text-decoration: none;
-  }
-
-  .post-list {
-    margin-left: 15px;
   }
 
   .date {

@@ -17,7 +17,7 @@ export default class Header extends Component {
           <div className="nav-list">
             {menuLinks.map(link => (
                 <Link key={link.name} to={link.link} activeClassName="active">
-                  {link.name}
+                  <p>{link.name}</p>
                 </Link>
             ))}
           </div>

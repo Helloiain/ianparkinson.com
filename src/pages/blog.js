@@ -18,15 +18,15 @@ export default class Blog extends Component {
         <div className="container">
           <div className="blog-container">
             <div className="blog-title">
-              <h3>Saumlaki Blog<br /><span className="title-sub">{data.allMarkdownRemark.totalCount} posts</span></h3>
+              <h2>Blog<br /><span className="title-sub">{data.allMarkdownRemark.totalCount} posts</span></h2>
             </div>
             <div className="post-list">
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div className="posts" key={node.id}>
                   <Link to={node.fields.slug}>
-                    <h5>{node.frontmatter.title}<br />
+                    <h4>{node.frontmatter.title}<br />
                       <span className="date"><Moment format="MMMM do, YYYY">{node.frontmatter.date}</Moment></span>
-                    </h5>
+                    </h4>
                   </Link>
                 </div>
             ))}
