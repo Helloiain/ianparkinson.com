@@ -24,7 +24,7 @@ export default class Index extends Component {
             </h2>
             <p className="text">
               Welcome to this tiny space i've made for myself and my ideas.
-              This is my first and only website, and although it has a ways to go, I hope you enjoy.
+              This is my first website, and although it has a ways to go, I hope you enjoy.
             </p>
             <a
               href="https://twitter.com/IanPark31931597" 
@@ -47,4 +47,5 @@ export default class Index extends Component {
     )
   }
 }
+
 

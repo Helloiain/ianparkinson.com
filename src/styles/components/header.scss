@@ -14,6 +14,18 @@
     justify-content: space-between;
 
     .brand {
+      .logo {
+        display: inline-block;
+        vertical-align: -0.2em;
+        margin-right: 5px;
+      }
+
+      .hdiv {
+        @include sm {
+          display: none;
+        }
+      }
+
       a {
         font-family: -apple-system, lato, Arial, sans-serif;
         font-size: 1.05rem;
