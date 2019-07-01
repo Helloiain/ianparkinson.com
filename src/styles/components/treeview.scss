@@ -5,11 +5,22 @@
 
 .tree-view_item {
   /* immediate child of .tree-view, for styling convenience */
+  margin: 0 0 1rem 0;
 }
 
 /* style for the children nodes container */
 .tree-view_children {
-  margin-left: 16px;
+  margin: 0 0 0 20px;
+}
+
+.info {
+  margin: 0 0 1rem 0;
+}
+
+.checkbox {
+  margin-right: 5px;
+  height: 10px;
+  width: 10px;
 }
 
 .tree-view_children-collapsed {

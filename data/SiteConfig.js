@@ -2,7 +2,7 @@ const config = {
     siteTitle: 'Ian Parkinson',
     siteTitleShort: 'Ian Parkinson',
     siteTitleAlt: 'Ian Parkinson',
-    siteLogo: '',
+    siteLogo: 'images/logo.png',
     siteUrl: 'https://www.ianparkinson.com',
     repo: 'https://github.com/helloiain/ianparkinson.com',
     pathPrefix: '',

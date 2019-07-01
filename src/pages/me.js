@@ -17,29 +17,25 @@ export default class Me extends Component {
           <div className="me-container">
             <h2>About me</h2>
             <p>
-              I'm Ian Parkinson a full-stack software developer based in
-              Houston, Tx. Before, I worked part-time as a server at a very
-              lovely resturant/theater but quickly realized I had no interest in
-              doing that, and really anything similar, in any way.
+              I'm Ian Parkinson, a self-learning software developer based in Houston, Tx. 
+              Before, I had been working part-time for a while at a very lovely dine-in theater but quickly
+              realized that that was not for me... at all. So a couple months ago I decided to quit and begin focusing 
+              on a career in which I believe i'm able to create useful and beautiful things.
             </p>
             <p>
-              I've always been fascinated with the future(surprise!) not only
-              how it will look but also how we'll get there. It's clear by now
-              that tech is leading that way so I decided to begin teaching
-              myself the fundamentals of computer science and programming and it
-              was no surprise when I fell in love immediately. It appeals to my
-              tendancy for logic and clarity, my love and appreciation for
-              narratives, and my wonder at the curious nature of the Abstract.
-            </p>
-            <p>
-              I created this site as a way to implement the idea of learning in
-              public, which i've come to value after being inspired by
-              wonderfully helpful content created by others who share that same
-              value.
+              I've always been fascinated with the future (I know I know, not much of a surprise) 
+              not only how it will look but also how we'll get there. It's been clear for a while
+              now that tech is leading that effort so I decided to begin teaching myself programming,
+              the best way I could think of to help and it was no surprise when I fell in love immediately.
+              In between all the tediousness and fustration that seems to just be another feature of programming,
+              there is a feeling of suchhhhhh satisfaction for the clarity and logic of well written code
+              (whenever I can manage, but i'm getting better at it every day!).
             </p>
           </div>
-          <h3>What i'm Learning</h3>
-          <Learning />
+          <div>
+            <h3>What i'm Learning</h3>
+            <Learning />
+          </div>
         </div>
       </Layout>
     )

@@ -5,9 +5,14 @@
 // Main Page
 .hero {
   max-width: 400px;
+  float: left;
 
-  a {
-    margin-right: 5px;
+  .social-media-icons {
+    margin-top: 1rem;
+
+    a {
+      margin-right: 5px;
+    }
   }
 }
 
@@ -42,14 +47,4 @@
 
 // Me Page
 .me-container {
-  p {
-    clear: both;
-  }
-
-  .bio-image {
-    float: left;
-    border-radius: 50%;
-    max-width: 56px;
-    margin: 0 5px 0 0;
-  }
 }

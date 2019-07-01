@@ -29,7 +29,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`,
+        path: `${__dirname}/src/assets/images/`,
       }
     },
     {
@@ -43,7 +43,7 @@ module.exports = {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
-          include: /images/
+          include: /svgs/
         }
       }
     },
@@ -95,18 +95,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'minimal-ui',
-        icons: [
-          {
-            src: '',
-            sizes: '',
-            type: '',
-          },
-          {
-            src: '',
-            sizes: '',
-            type: '',
-          },
-        ],
+        icon: 'src/assets/images/icon-1024.png',
       },
     },
   ],

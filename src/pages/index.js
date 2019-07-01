@@ -6,9 +6,10 @@ import config from "../../data/SiteConfig"
 
 import Layout from "../components/Layout"
 
-import InstagramIcon from "../images/iconmonstr-instagram-11.svg"
-import TwitterIcon from "../images/iconmonstr-twitter-3.svg"
-import GithubIcon from "../images/iconmonstr-github-3.svg"
+import InstagramIcon from "../assets/svgs/iconmonstr-instagram-11.svg"
+import TwitterIcon from "../assets/svgs/iconmonstr-twitter-3.svg"
+import GithubIcon from "../assets/svgs/iconmonstr-github-3.svg"
+import MessageApp from "../components/MessageApp";
 
 export default class Index extends Component {
   render() {
@@ -23,29 +24,24 @@ export default class Index extends Component {
               <span className="I">Ian</span>
             </h2>
             <p className="text">
-              Welcome to this tiny space i've made for myself and my ideas.
-              This is my first website, and although it has a ways to go, I hope you enjoy.
+              I created this site as a way to share a bit about myself and document
+              everything i've learned. I hope you enjoy.
             </p>
-            <a
-              href="https://twitter.com/IanPark31931597" 
-            >
-              <TwitterIcon className="twitter" />
-            </a>
-            <a
-              href="https://instagram.com/h3lloiain" 
-            >
-              <InstagramIcon className="instagram" />
-            </a>
-            <a 
-              href="https://github.com/helloiain"
-            >
-              <GithubIcon className="github" />
-            </a>
+            <div className="social-media-icons">
+              <a href="https://twitter.com/IanPark31931597">
+                <TwitterIcon className="twitter" />
+              </a>
+              <a href="https://instagram.com/h3lloiain">
+                <InstagramIcon className="instagram" />
+              </a>
+              <a href="https://github.com/helloiain">
+                <GithubIcon className="github" />
+              </a>
+            </div>
           </div>
+          <MessageApp />
         </div>
       </Layout>
     )
   }
 }
-
-

@@ -24,7 +24,7 @@ export default class Blog extends Component {
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div className="posts" key={node.id}>
                   <Link to={node.fields.slug}>
-                    <h4>{node.frontmatter.title}<br />
+                    <h4 className="title">{node.frontmatter.title}<br />
                       <span className="date"><Moment format="MMMM do, YYYY">{node.frontmatter.date}</Moment></span>
                     </h4>
                   </Link>

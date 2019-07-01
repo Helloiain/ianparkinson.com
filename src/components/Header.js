@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
 
-import Astrohawk from "../images/astrohawk.svg"
+import Astrohelm from "../assets/svgs/astro-helm.svg"
 
 export default class Header extends Component {
 
@@ -14,7 +14,7 @@ export default class Header extends Component {
         <div className="nav-container">
           <div className="brand">
             <Link to={`/`}>
-              <p><Astrohawk className="logo" /><span className="hdiv">Ian Parkinson</span></p>
+              <p><Astrohelm className="logo" /><span className="hdiv">Ian Parkinson</span></p>
             </Link>
           </div>
           <div className="nav-list">
