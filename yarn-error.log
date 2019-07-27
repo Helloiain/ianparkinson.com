@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install --no-bin-links
 
 PATH: 
   C:\Users\doof1\Downloads\cmder\bin;C:\Users\doof1\Downloads\cmder\vendor\bin;C:\Users\doof1\Downloads\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\doof1\Downloads\cmder\vendor\conemu-maximus5;C:\Users\doof1\Downloads\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Ruby25-x64\bin;C:\Users\doof1\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Hugo\bin;C:\Users\doof1\AppData\Local\Microsoft\WindowsApps;C:\Users\doof1\AppData\Local\GitHubDesktop\bin;C:\Users\doof1\AppData\Local\.meteor;C:\Users\doof1\AppData\Local\atom\bin;C:\Exercism;C:\flutter\bin;C:\Program Files\Docker Toolbox;C:\Users\doof1\AppData\Local\Keybase\;C:\Users\doof1\AppData\Local\Yarn\bin;C:\Users\doof1\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\doof1\Downloads\cmder
@@ -70,10 +70,7 @@ npm manifest:
       "eslint-plugin-react": "^7.13.0",
       "prettier": "^1.18.2",
       "remark-cli": "^6.0.1",
-      "remark-preset-lint-recommended": "^3.0.2",
-      "stylefmt": "^6.0.3",
-      "stylelint": "^10.1.0",
-      "stylelint-config-standard": "^18.3.0"
+      "remark-preset-lint-recommended": "^3.0.2"
     },
     "keywords": [
       "ian parkinson",
