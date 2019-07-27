@@ -15,7 +15,7 @@ export default class Me extends Component {
         <SEO />
         <div className="container">
           <div className="me-container">
-            <h2>About me</h2>
+            <h1>About me</h1>
             <p>
               I'm Ian Parkinson, a self-learning software developer based in Houston, Tx. 
               Before, I had been working part-time for a while at a very lovely dine-in theater but quickly

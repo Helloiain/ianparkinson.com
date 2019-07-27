@@ -106,68 +106,58 @@ exports.createPages = ({ actions, graphql }) => {
     const tagTemplate = path.resolve("src/utils/templates/tag.js")
 
     resolve(
-     graphql(`
-      {
-        allMarkdownRemark {
-          edges {
-            node {
-              frontmatter {
-                tags
-                template
-              }
-              fields {
-                slug
+      graphql(`
+        {
+          allMarkdownRemark {
+            edges {
+              node {
+                frontmatter {
+                  tags
+                  template
+                }
+                fields {
+                  slug
+                }
               }
             }
           }
         }
-      }
-    `).then(result => {
-      if (result.errors) {
-        reject(result.errors)
-      }
-
-      const tagSet = new Set()
-
-      result.data.allMarkdownRemark.edges.forEach(edge => {
-        if (edge.node.frontmatter.tags) {
-          edge.node.frontmatter.tags.forEach(tag => {
-            tagSet.add(tag)
-          })
+      `).then(result => {
+        if (result.errors) {
+          reject(result.errors)
         }
 
-        if (edge.node.frontmatter.template === "post") {
+        const tagSet = new Set()
+
+        result.data.allMarkdownRemark.edges.forEach(edge => {
+          if (edge.node.frontmatter.tags) {
+            edge.node.frontmatter.tags.forEach(tag => {
+              tagSet.add(tag)
+            })
+          }
+
+          if (edge.node.frontmatter.template === "post") {
+            createPage({
+              path: edge.node.fields.slug,
+              component: postTemplate,
+              context: {
+                slug: edge.node.fields.slug,
+              },
+            })
+          }
+        })
+
+        const tagList = Array.from(tagSet)
+        tagList.forEach(tag => {
           createPage({
-            path: edge.node.fields.slug,
-            component: postTemplate,
+            path: `/tags/${kebabCase(tag)}/`,
+            component: tagTemplate,
             context: {
-              slug: edge.node.fields.slug,
+              tag,
             },
           })
-        }
-
-        if (edge.node.frontmatter.template === "page") {
-          createPage({
-            path: edge.node.fields.slug,
-            component: pageTemplate,
-            context: {
-              slug: edge.node.fields.slug,
-            },
-          })
-        }
-      })
-
-      const tagList = Array.from(tagSet)
-      tagList.forEach(tag => {
-        createPage({
-          path: `/tags/${kebabCase(tag)}/`,
-          component: tagTemplate,
-          context: {
-            tag,
-          },
         })
       })
-    })
     )
   })
 }

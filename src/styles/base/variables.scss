@@ -1,11 +1,11 @@
 @font-face {
-  font-family: montserrat;
-  src: url(../assets/fonts/montserrat-regular-webfont.woff);
+  font-family: sfCompact;
+  src: url(../assets/fonts/sf-compact-display-medium-webfont.woff);
 }
 
 @font-face {
-  font-family: abhayalibre;
-  src: url(../assets/fonts/abhayalibre-regular-webfont.woff);
+  font-family: spectral;
+  src: url(../assets/fonts/spectral-regular-webfont.woff);
 }
 
 @font-face {
@@ -31,7 +31,7 @@ $mobile: $x-small;
 $tablet: $small;
 $desktop: $medium;
 
-$width: 825px;
+$width: 800px;
 
 /* Colors */
 
@@ -54,15 +54,15 @@ $font-size: 1rem;
 $body-font-size: 1.2rem;
 $font-style: normal;
 $font-variant: normal;
-$font-weight: normal;
-$font-color: rgba(0, 0, 0, 1);
-$font-family: -apple-system, abhayalibre, Arial, sans-serif;
+$font-weight: 400;
+$font-color: rgba(0, 0, 0, 0.6);
+$font-family: -apple-system, spectral, Arial, sans-serif;
 $line-height: 1.6;
 
 // Headings
-$heading-font-color: #404040;
+$heading-font-color: rgba(0, 0, 0, 0.8);
 $heading-font-weight: 600;
-$heading-font-family: -apple-system, lato, Arial, sans-serif;
+$heading-font-family: -apple-system, sfCompact, Arial, sans-serif;
 $heading-line-height: 1.2;
 
 // Mobile heading font size

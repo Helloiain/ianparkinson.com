@@ -1,17 +1,28 @@
 .nav {
-  position: absolute;
-  background-color: transparent;
+  &.scroll {
+    box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
+
+    .nav-container {
+      margin-top: 20px;
+    }
+  }
+
+  position: fixed;
+  background-color: $background;
+  z-index: 2;
   top: 0;
   left: 0;
   width: 100%;
+  font-weight: 400;
   // box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
   .nav-container {
     max-width: $width;
     margin: 0 auto;
     margin-top: 30px;
-    padding: 0 1.5rem;
+    padding: 0;
     display: flex;
     justify-content: space-between;
+    transition: margin-top 0.3s ease;
 
     .brand {
       .logo {
@@ -19,7 +30,7 @@
         vertical-align: -0.5em;
         margin-right: 5px;
         @include lg {
-          display: none
+          display: none;
         }
       }
 

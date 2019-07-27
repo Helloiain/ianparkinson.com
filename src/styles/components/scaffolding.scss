@@ -28,8 +28,18 @@ table {
 }
 
 // Remove extra margin for nested lists
-ul li ul {
-  margin-bottom: 0;
+ul li {
+  position: relative;
+  margin: 0 0 0 1rem;
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #686868;
 }
 
 ol li ol {
@@ -209,7 +219,8 @@ dd {
 .container {
   max-width: $width;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0;
+  position: relative;
 }
 
 .feet {

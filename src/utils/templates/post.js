@@ -25,13 +25,13 @@ export default class PostTemplate extends Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <article className="container">
-          <h3>
+          <h1>
             {post.title}
             <br />
             <span className="title-sub">
               <Moment format="MMMM do, YYYY">{post.date}</Moment>
             </span>
-          </h3>
+          </h1>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
 
           <Link to="/blog">Back to blog</Link>
