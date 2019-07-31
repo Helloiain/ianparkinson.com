@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { Component } from "react"
+import { Link } from 'gatsby'
 import Helmet from "react-helmet"
 import SEO from "../components/seo"
 import config from "../../data/SiteConfig"
@@ -52,8 +53,8 @@ export default class Index extends Component {
                 basement 😭. I am working on open-source projects, freelancing
                 and fleshing out my own personal ideas.
                 <br />
-                <br />I mainly tinker with web and native apps, mostly in
-                <strong> JavaScript</strong> and <strong>React</strong>.
+                <br />I mainly tinker with web and native apps in
+                <strong> JavaScript</strong>, <strong>React</strong> and <strong>Node</strong>.
               </p>
             </div>
             <div className="sub-container">
@@ -64,9 +65,6 @@ export default class Index extends Component {
                 that that was not for me... at all.
                 <br />
                 <br />
-                I've always been fascinated with the future (I know I know, not
-                much of a surprise) not only how it will look but also how we'll
-                get there.
               </p>
             </div>
           </div>
@@ -77,7 +75,7 @@ export default class Index extends Component {
               increase my skills.
               <br />
               <br />
-              Here is a look at some of my <a href="">projects</a>.
+              Here is a look at some of my <Link to={'/projects/'}>projects</Link>.
             </p>
           </div>
         </div>

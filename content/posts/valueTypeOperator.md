@@ -29,7 +29,7 @@ At the smallest scale in the computer, information is stored as bits. The bit wo
 In the JavaScript environment, a value is any meaningful chunk of bytes. There are 7 basic vlaue types in JavaScript.
 * `number` for numbers of any kind: integer or floating-point.
 * `string` for representing text. Single quotes, double quotes or backticks are used to mark strings, as long as the uotes at the start and the end of the string match.
-* `boolean` for `true`/`false`.
+* `boolean` for `true` / `false`.
 * `null` for unkown values.
 * `undefined` for unassigned values.
 * `symbol` for unique identifiers.
@@ -44,17 +44,24 @@ Variables, also called bindings, are containers used to store data. A variable i
 * `const` is like `let`, but the value of the variable cannot be changed.
 * `var` is considered an old-school variable declaration, normally we don't use it at all.
 
-        var firstName = 'Ian' // Variable is declared and assigned a value.
+```javascript
+ var firstName = 'Ian' // Variable is declared and assigned a value.
+```
 
 * Theres a difference between assigning a variable and declaring one.
 
-        var daphne; // here we are just declaring a variable, it is uninitialized.
-        var ian = "not a sucka"; // here we are assigning and declaring a variable.
+```javascript
+var daphne; // here we are just declaring a variable,it is uninitialized.
+var ian = "not a sucka"; // here we are assigning and declaring a variable.
 
-        daphne = "sucka";
+daphne = "sucka";
 
-        console.log(daphne)
-        // > sucka
+console.log(daphne)
+// sucka
+```
+
 * Variable names are case sensitive, that means capitilization matters. We usually use camelCase for multi-word names
 
-        var properCamelCase;
+```javascript
+var properCamelCase;
+```

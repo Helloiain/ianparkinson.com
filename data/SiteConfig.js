@@ -30,6 +30,10 @@ const config = {
         name: 'Me',
         link: '/me/',
       },
+      {
+        name: 'Projects',
+        link: '/projects/',
+      }
     ],
     themeColor: '', // Used for setting manifest and progress theme colors.
     backgroundColor: '',
