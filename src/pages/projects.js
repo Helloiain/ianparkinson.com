@@ -6,6 +6,7 @@ import config from "../../data/SiteConfig"
 import SEO from "../components/seo"
 
 import Layout from "../components/Layout"
+import readingList from "../assets/images/reading-list.jpg"
 
 const ProjectContainer = styled.div`
   display: flex;
@@ -32,7 +33,7 @@ export default class Me extends Component {
                 <li>Graphql</li>
                 <li>Node.js</li>
               </ul>
-              <img className="" alt="" width="350px" />
+              <img className="" src={readingList} alt="" width="350px" />
             </ProjectContainer>
           </div>
         </div>
