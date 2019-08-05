@@ -6,7 +6,6 @@ import config from "../../data/SiteConfig"
 import SEO from "../components/seo"
 
 import Layout from "../components/Layout"
-import readingList from "../assets/images/reading-list.jpg"
 
 const ProjectContainer = styled.div`
   display: flex;
@@ -16,7 +15,6 @@ const Heading = styled.h2`
 text-align: center;
 `
 
-console.log(readingList);
 export default class Me extends Component {
   render() {
     return (
@@ -34,7 +32,7 @@ export default class Me extends Component {
                 <li>Graphql</li>
                 <li>Node.js</li>
               </ul>
-              <img className="" src={readingList} alt="" width="350px" />
+              <img className="" alt="" width="350px" />
             </ProjectContainer>
           </div>
         </div>
