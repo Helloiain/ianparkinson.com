@@ -6,7 +6,7 @@ import config from "../../data/SiteConfig"
 import SEO from "../components/seo"
 
 import Layout from "../components/Layout"
-import readingList from "../assets/images/profile-pic.jpg"
+import readingList from "../assets/images/reading-list.jpg"
 
 const ProjectContainer = styled.div`
   display: flex;
