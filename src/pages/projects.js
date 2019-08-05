@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { Component } from "react"
 import Helmet from "react-helmet"
+import styled from "styled-components"
 import config from "../../data/SiteConfig"
 import SEO from "../components/seo"
-import styled from "styled-components"
 
 import Layout from "../components/Layout"
 import readingList from "../assets/images/reading_list.jpg"
@@ -16,6 +16,7 @@ const Heading = styled.h2`
 text-align: center;
 `
 
+console.log(readingList);
 export default class Me extends Component {
   render() {
     return (
