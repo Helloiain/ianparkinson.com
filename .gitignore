@@ -1,6 +1,8 @@
 # Dependency directories
 node_modules/
 
+TODO
+
 # gatsby files
 .cache/
 public
