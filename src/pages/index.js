@@ -12,7 +12,6 @@ import InstagramIcon from "../assets/svgs/iconmonstr-instagram-11.svg"
 import TwitterIcon from "../assets/svgs/iconmonstr-twitter-3.svg"
 import GithubIcon from "../assets/svgs/iconmonstr-github-3.svg"
 import Astronaut from "../assets/svgs/noun-Astronaut.svg"
-import Arrow from "../assets/svgs/down-arrow.svg"
 
 export default class Index extends Component {
   render() {
@@ -28,7 +27,7 @@ export default class Index extends Component {
             </h1>
             <p>
               I created this site as a way to share a bit about myself and
-              document everything i've learned. I hope you enjoy.
+              document everything i've learned. I hope you enjoy 😄.
             </p>
             <div className="social-media-icons">
               <a href="https://twitter.com/IanPark31931597">
@@ -47,10 +46,9 @@ export default class Index extends Component {
           <Quotes />
           <div className="container-2">
             <div className="sub-container">
-              <h2>What I Do</h2>
+              <h2>What I Do </h2>
               <p>
-                I am a full stack software engineer currently living in my moms
-                basement 😭. I am working on open-source projects, freelancing
+                I am a full stack software engineer based in Houston, Tx. I am working on open-source projects, freelancing
                 and fleshing out my own personal ideas.
                 <br />
                 <br />I mainly tinker with web and native apps in
@@ -58,11 +56,12 @@ export default class Index extends Component {
               </p>
             </div>
             <div className="sub-container">
-              <h2>How I got here</h2>
+              <h2>How I got here 🚀</h2>
               <p>
                 Before I dived into the world of programming I worked as a
                 server at a very lovely dine-in theater but quickly realized
-                that that was not for me... at all.
+                that that was not for me. So I decided to pivot and focus on learning
+                software engineering. And now here I am.
                 <br />
                 <br />
               </p>
