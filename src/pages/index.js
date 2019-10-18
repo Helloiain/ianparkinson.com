@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { Component } from "react"
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 import Helmet from "react-helmet"
 import SEO from "../components/seo"
 import config from "../../data/SiteConfig"
@@ -8,9 +8,9 @@ import config from "../../data/SiteConfig"
 import Layout from "../components/Layout"
 
 import Quotes from "../components/quotes"
-import InstagramIcon from "../assets/svgs/iconmonstr-instagram-11.svg"
 import TwitterIcon from "../assets/svgs/iconmonstr-twitter-3.svg"
 import GithubIcon from "../assets/svgs/iconmonstr-github-3.svg"
+import LinkedinIcon from "../assets/svgs/iconmonstr-linkedin-3.svg"
 import Astronaut from "../assets/svgs/noun-Astronaut.svg"
 
 export default class Index extends Component {
@@ -33,11 +33,11 @@ export default class Index extends Component {
               <a href="https://twitter.com/IanPark31931597">
                 <TwitterIcon className="twitter" />
               </a>
-              <a href="https://instagram.com/h3lloiain">
-                <InstagramIcon className="instagram" />
-              </a>
               <a href="https://github.com/helloiain">
                 <GithubIcon className="github" />
+              </a>
+              <a href="https://www.linkedin.com/in/ian-parkinson-272318195/">
+                <LinkedinIcon />
               </a>
             </div>
           </div>
@@ -48,11 +48,13 @@ export default class Index extends Component {
             <div className="sub-container">
               <h2>What I Do </h2>
               <p>
-                I am a full stack software engineer based in Houston, Tx. I am working on open-source projects, freelancing
-                and fleshing out my own personal ideas.
+                I am a full stack software engineer based in Houston, Tx. I am
+                working on open-source projects, freelancing and fleshing out my
+                own personal ideas.
                 <br />
                 <br />I mainly tinker with web and native apps in
-                <strong> JavaScript</strong>, <strong>React</strong> and <strong>Node</strong>.
+                <strong> JavaScript</strong>, <strong>React</strong> and{" "}
+                <strong>Node</strong>.
               </p>
             </div>
             <div className="sub-container">
@@ -60,8 +62,8 @@ export default class Index extends Component {
               <p>
                 Before I dived into the world of programming I worked as a
                 server at a very lovely dine-in theater but quickly realized
-                that that was not for me. So I decided to pivot and focus on learning
-                software engineering. And now here I am.
+                that that was not for me. So I decided to pivot and focus on
+                learning software engineering. And now here I am.
                 <br />
                 <br />
               </p>
@@ -74,7 +76,8 @@ export default class Index extends Component {
               increase my skills.
               <br />
               <br />
-              Here is a look at some of my <Link to={'/projects/'}>projects</Link>.
+              Here is a look at some of my{" "}
+              <Link to={"/projects/"}>projects</Link>.
             </p>
           </div>
         </div>
