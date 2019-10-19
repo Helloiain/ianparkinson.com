@@ -8,9 +8,10 @@ import config from "../../data/SiteConfig"
 import Layout from "../components/Layout"
 
 import Quotes from "../components/quotes"
-import TwitterIcon from "../assets/svgs/iconmonstr-twitter-3.svg"
-import GithubIcon from "../assets/svgs/iconmonstr-github-3.svg"
-import LinkedinIcon from "../assets/svgs/iconmonstr-linkedin-3.svg"
+import Arrow from "../assets/svgs/down-arrow.svg"
+import TwitterIcon from "../assets/svgs/iconmonstr-twitter-1.svg"
+import GithubIcon from "../assets/svgs/iconmonstr-github-1.svg"
+import LinkedinIcon from "../assets/svgs/iconmonstr-linkedin-1.svg"
 import Astronaut from "../assets/svgs/noun-Astronaut.svg"
 
 export default class Index extends Component {
@@ -21,13 +22,10 @@ export default class Index extends Component {
         <SEO />
         <div className="container">
           <div className="hero">
-            <h1>
-              Hello, i'm <br />
-              <span className="I">Ian</span>
-            </h1>
+            <h1>Hello, I'm a frontend and node.js developer.</h1>
             <p>
               I created this site as a way to share a bit about myself and
-              document everything i've learned. I hope you enjoy 😄.
+              document everything i've learned.
             </p>
             <div className="social-media-icons">
               <a href="https://twitter.com/IanPark31931597">
@@ -41,12 +39,12 @@ export default class Index extends Component {
               </a>
             </div>
           </div>
-          <Astronaut className="astronaut" />
-          {/* <Arrow className="arrow" /> */}
+          {/* <Astronaut className="astronaut" /> */}
+          <Arrow className="arrow" />
           <Quotes />
           <div className="container-2">
             <div className="sub-container">
-              <h2>What I Do </h2>
+              <h2>What I Do 💻 </h2>
               <p>
                 I am a full stack software engineer based in Houston, Tx. I am
                 working on open-source projects, freelancing and fleshing out my
@@ -69,7 +67,7 @@ export default class Index extends Component {
               </p>
             </div>
           </div>
-          <div className="container-4">
+          <div className="container-3">
             <p>
               I love programming and learning new things - as a result I
               frequently work on side-projects and applications to further

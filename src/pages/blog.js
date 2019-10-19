@@ -18,18 +18,22 @@ export default class Blog extends Component {
         <div className="container">
           <div className="blog-container">
             <div className="blog-title">
-              <h1>Blog<br /><span className="title-sub">{data.allMarkdownRemark.totalCount} posts</span></h1>
+              <h1>
+                Blog
+                <br />
+                <span className="title-sub">
+                  {data.allMarkdownRemark.totalCount} posts
+                </span>
+              </h1>
             </div>
             <div className="post-list">
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <div className="posts" key={node.id}>
                   <Link to={node.fields.slug}>
-                    <h4 className="title">{node.frontmatter.title}<br />
-                      <span className="title-sub"><Moment format="MMMM do">{node.frontmatter.date}</Moment></span>
-                    </h4>
+                    <p className="title">{node.frontmatter.title}</p>
                   </Link>
                 </div>
-            ))}
+              ))}
             </div>
           </div>
         </div>
