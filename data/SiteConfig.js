@@ -24,10 +24,6 @@ const config = {
       name: "Blog",
       link: "/blog/",
     },
-    {
-      name: "Projects",
-      link: "/projects/",
-    },
   ],
   themeColor: "", // Used for setting manifest and progress theme colors.
   backgroundColor: "",

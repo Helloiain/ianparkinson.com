@@ -8,15 +8,13 @@ import styled from "styled-components"
 
 import Layout from "../components/Layout"
 
-import Quotes from "../components/quotes"
 import Arrow from "../assets/svgs/down-arrow.svg"
 import TwitterIcon from "../assets/svgs/iconmonstr-twitter-1.svg"
 import GithubIcon from "../assets/svgs/iconmonstr-github-1.svg"
 import LinkedinIcon from "../assets/svgs/iconmonstr-linkedin-1.svg"
-import Astronaut from "../assets/svgs/noun-Astronaut.svg"
-import sassy from "../assets/images/sassy.jpg"
-import algorithmvisualizer from "../assets/images/algorithmvisualizer.jpg"
-import romanemperors from "../assets/images/romanemperors.jpg"
+import creditCardForm from "../assets/images/creditCardForm.png"
+import apexTracker from "../assets/images/apexTracker.png"
+import romanemperors from "../assets/images/romanemperors.png"
 
 const ProjectContainer = styled.div`
   display: grid;
@@ -39,7 +37,7 @@ const ProjectContainer = styled.div`
     width: 400px;
     font-size: 1rem;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
@@ -74,13 +72,13 @@ export default class Index extends Component {
         <SEO />
         <div className="container">
           <div className="hero">
-            <h1>Hello, I'm a frontend and node.js developer.</h1>
+            <h1>Hello, I'm a frontend and node.js developer</h1>
             <p>
               I mainly tinker with web and native apps in{" "}
               <strong> javascript</strong>, <strong>react</strong> and{" "}
-              <strong>node.js</strong>.
+              <strong>node.js</strong>
               <br />
-              Here is a look at some of my <Link to={"#top"}>projects</Link>.
+              Here is a look at some of my <Link to={"#top"}>projects</Link>
             </p>
             <div className="social-media-icons">
               <a href="https://twitter.com/IanPark31931597">
@@ -104,21 +102,21 @@ export default class Index extends Component {
                 <div className="a">
                   <img
                     className=""
-                    src={algorithmvisualizer}
+                    src={creditCardForm}
                     alt=""
                     width="360px"
                     height="220px"
                   />
                   <div className="links">
                     <a
-                      href="https://github.com/Helloiain/pathfindingVisualizer"
+                      href="https://github.com/Helloiain/credit-card-form"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       code source
                     </a>
                     <a
-                      href="https://hardcore-lewin-89b76a.netlify.com/"
+                      href="https://eager-albattani-24fdc1.netlify.com/"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -127,12 +125,10 @@ export default class Index extends Component {
                   </div>
                 </div>
                 <div className="b">
-                  <h2>Algorithm Visualizer</h2>
+                  <h2>Credit Card Form</h2>
                   <p>
-                    At its core, a pathfinding algorithm seeks to find the
-                    shortest path between two points. This application
-                    visualizes various pathfinding algorithms in action, and
-                    more!
+                    A credit card form with number formatting, form handling and
+                    validation.
                   </p>
                   <div>
                     <Tag>HTML</Tag>
@@ -156,7 +152,7 @@ export default class Index extends Component {
                     <Tag>Javascript</Tag>
                     <Tag>JSON</Tag>
                     <Tag>Python</Tag>
-                    <Tag>Web Scraping</Tag>
+                    <Tag>Scrapy</Tag>
                     <Tag>React</Tag>
                   </div>
                 </div>
@@ -186,7 +182,7 @@ export default class Index extends Component {
                       </a>
                     </div>
                     <a
-                      href="https://why-are-you-so-sexy.netlify.com/"
+                      href="https://romanemperors.netlify.com/"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -199,14 +195,14 @@ export default class Index extends Component {
                 <div className="a">
                   <img
                     className=""
-                    src={sassy}
+                    src={apexTracker}
                     alt=""
                     width="360px"
                     height="220px"
                   />
                   <div className="links">
                     <a
-                      href="https://github.com/Helloiain/reading_list"
+                      href="https://github.com/Helloiain/sassypants"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -222,16 +218,18 @@ export default class Index extends Component {
                   </div>
                 </div>
                 <div className="b">
-                  <h2>Sassy</h2>
+                  <h2>Apex Tracker</h2>
                   <p>
-                    Using hand coded HTML, CSS, and JavaScript to test out a
-                    lightbox gallery effect.
+                    Using the tracker.gg api, this app finds real-time stats of
+                    apex legends players on all platforms.
                   </p>
                   <div>
                     <Tag>HTML</Tag>
                     <Tag>CSS</Tag>
+                    <Tag>Express.js</Tag>
                     <Tag>Javascript</Tag>
-                    <Tag>jQuery</Tag>
+                    <Tag>React</Tag>
+                    <Tag>React-Router</Tag>
                   </div>
                 </div>
               </ProjectContainer>
@@ -242,41 +240,3 @@ export default class Index extends Component {
     )
   }
 }
-
-// <div className="container-2">
-//           <div className="sub-container">
-//             <h2>What I Do 💻 </h2>
-//             <p>
-//               I am a full stack software engineer based in Houston, Tx. I am
-//               working on open-source projects, freelancing and fleshing out my
-//               own personal ideas.
-//               <br />
-//               <br />I mainly tinker with web and native apps in
-//               <strong> JavaScript</strong>, <strong>React</strong> and{" "}
-//               <strong>Node</strong>.
-//             </p>
-//           </div>
-//           <div className="sub-container">
-//             <h2>How I got here 🚀</h2>
-//             <p>
-//               Before I dived into the world of programming I worked as a
-//               server at a very lovely dine-in theater but quickly realized
-//               that that was not for me. So I decided to pivot and focus on
-//               learning software engineering. And now here I am.
-//               <br />
-//               <br />
-//             </p>
-//           </div>
-//         </div>
-//         <div className="container-3">
-//           <p>
-//             I love programming and learning new things - as a result I
-//             frequently work on side-projects and applications to further
-//             increase my skills.
-//             <br />
-//             <br />
-//             Here is a look at some of my{" "}
-//             <Link to={"/projects/"}>projects</Link>.
-//           </p>
-//         </div>
-//       </div>
