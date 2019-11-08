@@ -202,14 +202,14 @@ export default class Index extends Component {
                   />
                   <div className="links">
                     <a
-                      href="https://github.com/Helloiain/sassypants"
+                      href="https://github.com/Helloiain/apex-tracker"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       code source
                     </a>
                     <a
-                      href="https://vibrant-poitras-e44ea7.netlify.com/"
+                      href="https://mysterious-stream-59627.herokuapp.com"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
