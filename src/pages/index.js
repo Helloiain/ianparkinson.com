@@ -14,7 +14,7 @@ import GithubIcon from "../assets/svgs/iconmonstr-github-1.svg"
 import LinkedinIcon from "../assets/svgs/iconmonstr-linkedin-1.svg"
 import creditCardForm from "../assets/images/creditCardForm.png"
 import apexTracker from "../assets/images/apexTracker.png"
-import romanemperors from "../assets/images/romanemperors.png"
+import romanemperors from "../assets/images/romanEmperors.png"
 
 const ProjectContainer = styled.div`
   display: grid;
