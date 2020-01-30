@@ -6,7 +6,10 @@ slug: "JavaScript Building Blocks"
 tags: ["javascript"]
 ---
 
-The goal of this article will be to get familiar with the basic syntax of JavaScript.
+I feel like I realized this pretty late, but it is so important to be able to share the things you've learned and also in being able to do it well. I'm a bit farther along in Javascript than the topics I'll be discussing here, but I think this is going to be apart of a series and i'd like to start from the beginning. 
+
+> <em>"We must leave freedom for the mind to wander about in trying to solve the problems…. The successful user of mathematics is practically an inventor of new ways of obtaining answers in given situations. Even if the ways are well known, it is usually much easier for him to invent his own way— a new way or an old way— than it is to try to find it by looking it up."
+ ><cite>--Richard Feynman</cite></em>
 
 ## Bits ##
 ***
@@ -79,3 +82,5 @@ var properCamelCase;
 ```
 
 * A variable cannot be any of the words already used as functions in the JS language.<a href="https://www.w3schools.com/js/js_reserved.asp" target="_blank">List of reserved JavaScript names.</a>
+
+### Operators ###
